@@ -11,7 +11,7 @@
 <body>
     <main> <!-- Card -->
         <div id="Result"> <!-- Resultados -->
-            <h4>Your Result</h4>
+            <span>Your Result</span>
             <div id="score">
                 <h2>76</h2>
                 <p>of 100</p>
@@ -20,27 +20,25 @@
             <p>You scored higher than 65% of the people who have taken these tests.</p>
         </div> <!-- Fim Resultados -->
         <div id="Summary"> <!-- Resumo -->
-            <h4>Summary</h4>
-
-            <div class="item">
-                <p>Reaction</p>
-                <p>80 <span class="percentage">/ 100</span></p>
-            </div>
-
-            <div class="item">
-                <p>Memory</p>
-                <p>92 <span class="percentage">/ 100</span></p>
-            </div>
-
-            <div class="item">
-                <p>Verbal</p>
-                <p>61 <span class="percentage">/ 100</span></p>
-            </div>
-
-            <div class="item">
-                <p>Visual</p>
-                <p>72 <span class="percentage">/ 100</span></p>
-            </div>
+            <span>Summary</span>
+            <ul>
+                <li id="reaction">
+                    <span>Reaction</span>
+                    <p>80</p><span class="percentual">/ 100</span>
+                </li>
+                <li id="memory">
+                    <span>Memory</span>
+                    <p>92</p><span class="percentual">/ 100</span>
+                </li>
+                <li id="verbal">
+                    <span>Verbal</span>
+                    <p>61</p><span class="percentual">/ 100</span>
+                </li>
+                <li id="visual">
+                    <span>Visual</span>
+                    <p>72</p><span class="percentual">/ 100</span> 
+                </li>
+            </ul>
             
         </div> <!-- Fim Resumo -->
     </main> <!-- Fim Card -->

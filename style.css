@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* primary colors */
+    --reaction: hsl(0, 100%, 67%);
+    --memory: hsl(39, 100%, 56%);
+    --verbal: hsl(166, 100%, 37%);
+    --visual: hsl(234, 85%, 45%);
+
+    /* gradients */
+    --slate_blue_background: hsl(252, 100%, 67%);
+    --royal_blue_background: hsl(241, 81%, 54%);
+    --violet_blue_circle: hsla(256, 72%, 46%, 1);
+    --persian_blue_circle: hsla(241, 72%, 46%, 0);
+
+    /* neutral */
+    --white: hsl(0, 0%, 100%);
+    --pale_blue: hsl(221, 100%, 96%);
+    --light_lavender: hsl(241, 100%, 89%);
+    --dark_gray_blue: hsl(224, 30%, 27%);
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Card */ 
+main {
+    width: 600px;
+    height: 400px;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* Resultado */ 
+main #Result {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, var(--royal_blue_background), var(--slate_blue_background));
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* Título */
+#Result > span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--light_lavender);
+}
+
+/* Pontuação */
+div#score {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, var(--violet_blue_circle), var(--persian_blue_circle));
+}
+
+div#score h2 {
+    display: block;
+    font-size: 4em;
+    font-weight: 800;
+    line-height: .5em;
+    padding-top: 30px;
+    color: var(--white);
+}
+
+div#score p {
+    display: block;
+    color: var(--light_lavender);
+}
+
+/* Textos - Resultados */
+#Result h3 {
+    font-size: 1.5em;
+    color: var(--white);
+}
+
+#Result p {
+    padding: 10px 40px;
+    color: var(--light_lavender);
+}
+
+/* Summary */
+main #Summary {
+    width: 300px;
+    height: 400px;
+    padding: 40px 20px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid green;
+    background-color: var(--white);
+}
+
+div#Summary span {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+li {
+    border: 1px solid red;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li#reaction {
+    background-image: url(./images/icon-reaction.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
