@@ -119,11 +119,13 @@ li {
     border: 1px solid red;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin: 25px 0;
 }
 
 li#reaction {
     background-image: url(./images/icon-reaction.svg);
     background-repeat: no-repeat;
     background-position: center left;
+}
