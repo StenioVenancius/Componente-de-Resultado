@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root {
     /* primary colors */
     --reaction: hsl(0, 100%, 67%);
@@ -27,105 +21,174 @@
 
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     font-family: 'Hanken Grotesk', sans-serif;
+    background-color: var(--white);
 }
 
-/* Card */ 
 main {
-    width: 600px;
-    height: 400px;
-    border: 1px solid red;
-    border-radius: 10px;
+    width: 500px;
+    height: 360px;
+    border-radius: 20px;
     display: flex;
+    box-shadow: 10px 15px 20px hsla(224, 30%, 27%, 25%);
 }
 
-/* Resultado */ 
-main #Result {
-    width: 300px;
-    height: 400px;
-    border-radius: 10px;
-    background-image: linear-gradient(to top, var(--royal_blue_background), var(--slate_blue_background));
+div#Result {
+    width: 250px;
+    height: auto;
+    padding: 20px 10px;
+    border-radius: 20px;
     text-align: center;
-    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(to top, var(--royal_blue_background), var(--slate_blue_background));
 }
 
-/* Título */
-#Result > span {
+#Result span {
     font-size: 1.2em;
-    font-weight: 500;
     color: var(--light_lavender);
 }
 
-/* Pontuação */
-div#score {
+#score {
     width: 150px;
     height: 150px;
-    margin: 20px auto;
     border-radius: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to bottom, var(--violet_blue_circle), var(--persian_blue_circle));
+    background: linear-gradient(360deg, var(--persian_blue_circle), var(--violet_blue_circle));
 }
 
-div#score h2 {
-    display: block;
-    font-size: 4em;
+#score h2 {
+    font-size: 3.5em;
     font-weight: 800;
-    line-height: .5em;
-    padding-top: 30px;
+    line-height: .9em;
     color: var(--white);
 }
 
-div#score p {
-    display: block;
+#score p {
+    font-size: .8em;
     color: var(--light_lavender);
 }
 
-/* Textos - Resultados */
-#Result h3 {
+#information h3 {
     font-size: 1.5em;
     color: var(--white);
+    padding-bottom: 10px;
 }
 
-#Result p {
-    padding: 10px 40px;
+#information p {
+    font-size: .8em;
+    font-weight: 500;
+    padding: 0 25px;
     color: var(--light_lavender);
 }
 
-/* Summary */
-main #Summary {
-    width: 300px;
-    height: 400px;
-    padding: 40px 20px;
-    border-radius: 0 10px 10px 0;
-    border: 1px solid green;
-    background-color: var(--white);
+div#Summary {
+    width: 250px;
+    height: auto;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
 }
 
-div#Summary span {
-    font-size: 1.4em;
-    font-weight: 500;
+#Summary>span {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+li p{
+    display: inline;
 }
 
 li {
-    border: 1px solid red;
-    list-style: none;
+    width: auto;
+    height: 45px;
+    border-radius: 8px;
+    margin-bottom: 8px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin: 25px 0;
 }
 
-li#reaction {
-    background-image: url(./images/icon-reaction.svg);
-    background-repeat: no-repeat;
-    background-position: center left;
+li:last-child {
+    margin-bottom: 26px;
+}
+
+li img { 
+    padding: 0 8px;
+
+}
+
+li > span {
+    width: 70px;
+    font-size: .8em;
+}
+
+li > p { 
+    width: 70px;
+    font-size: .8em;
+    font-weight: 800;
+    margin: 0 10px 0 42px;
+    text-align: right;
+    color: var(--dark_gray_blue);
+}
+
+li p span {
+    font-weight: 500;
+    color: var(--light_lavender);
+}
+
+#reaction {
+    color: var(--reaction);
+    background: hsla(0, 100%, 67%, 5%);
+}
+
+#memory {
+    color: var(--memory);
+    background: hsla(39, 100%, 56%, 5%);
+}
+
+#verbal {
+    color: var(--verbal);
+    background: hsla(166, 100%, 37%, 5%);
+}
+
+#visual {
+    color: var(--visual);
+    background: hsla(234, 85%, 45%, 5%);
+}
+
+input {
+    width: auto;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    color: var(--white);
+    background: linear-gradient(to top, var(--royal_blue_background), var(--slate_blue_background));
+}
+
+input:hover{
+    cursor: pointer;
+    background: var(--dark_gray_blue);
 }
