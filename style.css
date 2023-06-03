@@ -192,3 +192,186 @@ input:hover{
     cursor: pointer;
     background: var(--dark_gray_blue);
 }
+
+/*320px*/
+@media (min-width: 320px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    /*Card Resultado*/
+    div#Result {
+        width: 100vw;
+        border-radius: 0 0 20px 20px;
+        padding-bottom: 30px;
+    }
+
+    /*Pontiação*/
+    #Result #score {
+        width: 120px;
+        height: 120px;
+    }
+
+    #score h2 {
+        font-size: 3em;
+        font-weight: 800;
+        line-height: 1.3em;
+    }
+    
+    #score p {
+        font-size: .9em;
+    }
+
+    /*Texto Card Resultado*/
+    #information h3 {
+        font-size: 1.3em;
+    }
+    
+    #information p {
+        font-size: .9em;
+        font-weight: 500;
+        padding: 0 50px;
+    }
+
+    /*Card Resumo*/
+    div#Summary {
+        width: 100vw;
+        height: 100%;
+        padding: 20px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        width: auto;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        display: flex;
+    }
+
+    /* Lista de items*/
+    li img { 
+        margin-left: 10px;
+    }
+    
+    li > p { 
+        margin: 0 10px 0 auto;
+        font-size: .9em;
+    }
+
+    li > span {
+        width: 70px;
+        font-size: .9em;
+    }
+    
+    li:last-child {
+        margin-bottom: 20px;
+    }
+
+    /*Botão*/
+    input {
+        width: auto;
+        height: 60px;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    
+}
+
+/*414px*/
+@media (min-width: 414px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    /*Card Resultado*/
+    div#Result {
+        width: 100vw;
+        border-radius: 0 0 20px 20px;
+        padding: 30px 30px;
+    }
+
+    /*Your Result*/
+    #Result span {
+        font-size: 1.4em;
+        color: var(--light_lavender);
+    }
+
+    /*Pontiação*/
+    #Result #score {
+        width: 140px;
+        height: 140px;
+    }
+
+    #score h2 {
+        font-size: 3.2em;
+        font-weight: 800;
+        line-height: 1.3em;
+    }
+    
+    #score p {
+        font-size: .9em;
+    }
+
+    /*Texto Card Resultado*/
+    #information h3 {
+        font-size: 1.4em;
+    }
+    
+    #information p {
+        font-size: 1em;
+        font-weight: 500;
+        padding: 0 50px;
+    }
+
+    /*Card Resumo*/
+    div#Summary {
+        width: 100vw;
+        height: 100vh;
+        padding: 20px 25px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+
+    
+
+    li {
+        width: auto;
+        height: 20%;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        display: flex;
+    }
+
+    /* Lista de items*/
+    li img { 
+        margin-left: 10px;
+    }
+    
+    li > p { 
+        margin: 0 10px 0 auto;
+        font-size: .9em;
+    }
+
+    li > span {
+        width: 70px;
+        font-size: .9em;
+    }
+    
+    li:last-child {
+        margin-bottom: 20px;
+    }
+
+    /*Botão*/
+    input {
+        width: auto;
+        height: 60px;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+}
