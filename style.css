@@ -194,7 +194,7 @@ input:hover{
 }
 
 /*320px*/
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     main {
         width: 100vw;
         height: 100vh;
@@ -281,7 +281,7 @@ input:hover{
 }
 
 /*414px*/
-@media (min-width: 414px) {
+@media (min-width: 414px) and (max-width: 510px){
     main {
         width: 100vw;
         height: 100vh;
@@ -291,61 +291,68 @@ input:hover{
     /*Card Resultado*/
     div#Result {
         width: 100vw;
+        height: 40vh;
         border-radius: 0 0 20px 20px;
-        padding: 30px 30px;
+        padding: 40px 30px;
     }
 
     /*Your Result*/
     #Result span {
-        font-size: 1.4em;
+        font-size: 1.6em;
         color: var(--light_lavender);
     }
 
     /*Pontiação*/
     #Result #score {
-        width: 140px;
-        height: 140px;
+        width: 180px;
+        height: 180px;
     }
 
     #score h2 {
-        font-size: 3.2em;
+        font-size: 4.5em;
         font-weight: 800;
-        line-height: 1.3em;
+        line-height: 1.2em;
     }
     
     #score p {
-        font-size: .9em;
+        font-size: 1.2em;
     }
 
     /*Texto Card Resultado*/
     #information h3 {
-        font-size: 1.4em;
+        font-size: 2em;
     }
     
     #information p {
-        font-size: 1em;
+        font-size: 1.4em;
         font-weight: 500;
-        padding: 0 50px;
+        padding: 0 40px 20px;
     }
 
     /*Card Resumo*/
     div#Summary {
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         padding: 20px 25px;
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
     }
 
-    
+    #Summary>span {
+        font-size: 1.8em;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
 
+    /* Tamanho do container*/
     li {
         width: auto;
-        height: 20%;
+        height: 80px;
         border-radius: 8px;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         display: flex;
+        justify-content: flex-start;
+        border: 1px solid green;
     }
 
     /* Lista de items*/
@@ -354,17 +361,23 @@ input:hover{
     }
     
     li > p { 
-        margin: 0 10px 0 auto;
-        font-size: .9em;
+        width: auto;
+        margin-left: auto;
+        font-size: 1.4em;
+        border: 1px solid red;
     }
 
     li > span {
         width: 70px;
-        font-size: .9em;
+        font-size: 1.4em;
     }
     
     li:last-child {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 50px;
     }
 
     /*Botão*/
