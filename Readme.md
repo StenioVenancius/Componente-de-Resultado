@@ -157,7 +157,7 @@ Sinta-se avontade para enviar seu feedback!
 ## EN
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Results Summary Component
 Hello! <br>
 Welcome to my solution to the Results Summary Component challenge in Frontend Mentor (https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub). This Readme will serve as your guide to understanding this project; it will be based on the template provided by the Frontend Mentor platform itself.
 <br>
