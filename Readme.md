@@ -24,7 +24,7 @@ Sem mais delongas, quero agradeço por disponibiliziar um pouco do seu tempo vis
 
 ## Visão Geral
 ### Captura de tela
-![](./design/Solu%C3%A7%C3%A3o.png)
+![](./Design/Solu%C3%A7%C3%A3o.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -180,7 +180,7 @@ Without further ado, I want to thank you for taking the time to visit my project
 
 ## Overview
 ### Print Screen
-![](./design/Resolu%C3%A7%C3%A3o.png)
+![](./Design/Solu%C3%A7%C3%A3o.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
