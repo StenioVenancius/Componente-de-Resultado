@@ -5,7 +5,7 @@ Olá! <br>
 Seja muito bem-vindo(a) a minha solução para o desafio do Componente de Resumo de Resultados no Frontend Mentor (https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub). Este Readme servirá como seu guia para o entendimento deste projeto; ele terá como base o template disponiblizado pela própria plataforma do Frontend Mentor.
 <br>
 <br>
-Sem mais delongas, quero agradeço por disponibiliziar um pouco do seu tempo visitando o meu projeto! :D
+Sem mais delongas, quero agradeço por disponibiliziar um pouco do seu tempo visitando o meu projeto!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -162,7 +162,7 @@ Hello! <br>
 Welcome to my solution to the Results Summary Component challenge in Frontend Mentor (https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub). This Readme will serve as your guide to understanding this project; it will be based on the template provided by the Frontend Mentor platform itself.
 <br>
 <br>
-Without further ado, I want to thank you for taking the time to visit my project! :D
+Without further ado, I want to thank you for taking the time to visit my project!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
